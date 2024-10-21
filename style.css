@@ -1,35 +1,66 @@
-body, html {    margin: 0; 
-    padding: 0;    font-family: Arial, sans-serif;  
-    padding-top: 50px;     background-color: #A6B6A9;  
+body, html {    
+    margin: 0; 
+    padding: 0;    
+    font-family: Arial, sans-serif;  
+    padding-top: 50px;     
+    background-color: #F2E8DF;  /* Пастельный бежевый фон */
 } 
+
 .navbar { 
-    margin-bottom: 20px;    background-color: #5D7279; 
+    margin-bottom: 20px;    
+    background-color: #D1C4B7;  /* Пастельный серо-коричневый для навбара */
 } 
+
 .navbar-brand, .navbar-nav > li > a { 
-    color: white !important; } 
+    color: #F7F4F0 !important; /* Мягкий бело-бежевый цвет для текста в навбаре */
+} 
+
 .jumbotron { 
-    background-color: #A6B6A9;} 
+    background-color: #F2E8DF; /* Пастельный бежевый для jumbotron */
+} 
+
 footer { 
     margin-top: 20px; 
-    padding: 10px;    background-color: #A6B6A9; 
+    padding: 10px;    
+    background-color: #F2E8DF; /* Пастельный бежевый для фона футера */
 } 
-h2 {    margin-top: 50px; 
+
+h2 {    
+    margin-top: 50px; 
 } 
-header {    text-align: center; 
+
+header {    
+    text-align: center; 
     margin-bottom: 20px; 
 } 
-h1 {    font-size: 3em; 
-    color: white;} 
-.section { 
-    border: 1px solid black;    margin: 10px; 
-    padding: 20px;    box-sizing: border-box; 
-    position: relative;    background-color: #5D7279; 
-    color: white;} 
-.section-title { 
-    padding: 10px;    font-size: 1.2em; 
-    font-weight: bold;} 
-/* Responsive Design */ 
-@media (min-width: 768px) {    /* Styles specific to tablet view can go here */ 
+
+h1 {    
+    font-size: 3em; 
+    color: #A3A380;  /* Пастельный оливковый для заголовка */
 } 
-@media (min-width: 992px) {    /* Styles specific to desktop view can go here */ 
+
+.section { 
+    border: 1px solid #C9C9C9;  /* Мягкий серый для границы */
+    margin: 10px; 
+    padding: 20px;    
+    box-sizing: border-box; 
+    position: relative;    
+    background-color: #D9D2C5;  /* Пастельный серо-бежевый для секций */
+    color: #555555;  /* Мягкий темно-серый для текста */
+} 
+
+.section-title { 
+    padding: 10px;    
+    font-size: 1.2em; 
+    font-weight: bold; 
+    color: #8A8A74;  /* Пастельный оливково-серый для заголовков секций */
+} 
+
+/* Responsive Design */ 
+@media (min-width: 768px) {    
+    /* Styles specific to tablet view can go here */ 
+} 
+
+@media (min-width: 992px) {    
+    /* Styles specific to desktop view can go here */ 
 }
